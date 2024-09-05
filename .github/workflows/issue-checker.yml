@@ -16,7 +16,7 @@ jobs:
   triage:
     runs-on: ubuntu-latest
     steps:
-      - uses: MaaAssistantArknights/issue-checker@640000eabc7847f06208c1d67b4be0404ef20c1f
+      - uses: MaaAssistantArknights/issue-checker@45825175540a67a0590577b2a5ad8cf5efc6fb1e
         with:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           configuration-path: .github/issue-checker.yml
