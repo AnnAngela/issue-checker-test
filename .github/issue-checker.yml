@@ -3,7 +3,7 @@ default-mode:
   remove: [pull_request_target, issues]
 comments:
   - name: Check Link
-    url_mode: allow_only
+    url_mode: deny
     url_list:
       - hostname: ^(?:.+\.)?github\.com$
         pathname: ^/MaaAssistantArknights/
